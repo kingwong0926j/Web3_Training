@@ -19,8 +19,3 @@ npm install @chainlink/env-enc --save-dev
 Enter the password (input will be hidden): 
 *********
 npx env-enc set
-
-git remote add origin https://github.com/kingwong0926j/Web3_Training.git
-wangjing@wangjingdeMac-mini Hardhat % git remote -v
-origin	https://github.com/kingwong0926j/Web3_Training.git (fetch)
-origin	https://github.com/kingwong0926j/Web3_Training.git (push)
