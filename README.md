@@ -5,9 +5,22 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
+npx hardhat compile
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+#安装envenc
+npm install @chainlink/env-enc --save-dev
+1 npx env-enc set-pw
+Enter the password (input will be hidden): 
+*********
+npx env-enc set
+
+git remote add origin https://github.com/kingwong0926j/Web3_Training.git
+wangjing@wangjingdeMac-mini Hardhat % git remote -v
+origin	https://github.com/kingwong0926j/Web3_Training.git (fetch)
+origin	https://github.com/kingwong0926j/Web3_Training.git (push)
